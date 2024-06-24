@@ -1,3 +1,4 @@
+
 /* SUMMARY
     1. GLOBAL
     2. LAYOUT
@@ -216,7 +217,8 @@ ul.row {
 }
 
 .nav .nav-item + .nav-item {
-    margin: var(--nav-item-margin);}
+    margin: var(--nav-item-margin);
+}
   
 .nav .nav-link {
     display: block;
@@ -391,11 +393,11 @@ ul.row {
 }
 
 /* Section ABOUT US
-  ============================= */
+    ============================= */
 
-  .section-about-us [class*='col-'] {
+.section-about-us [class*='col-'] {
     align-self: center;
-  }
+}
   
 /*** 4. CARD ***/
   
@@ -556,6 +558,10 @@ ul.row {
     position: relative;
     padding: 7rem 0 0;
     z-index: 2;
+}
+
+.main-article {
+    padding: 5rem 0;
 }
 
 /* Post
