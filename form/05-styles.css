@@ -693,7 +693,7 @@
     font-size: 1.4rem;
     padding: 0 0 0.5rem;
   }
-
+  
   input[type="text"],
   input[type="email"],
   textarea {
@@ -722,32 +722,35 @@
     font-style: italic;
     font-size: var(--font-size-small);
   }
-
+  
   /* Form group
-    ============================= */
+  ============================= */
+  
   .form-group {
     padding: 1rem;
     margin: 0;
     background-color: var(--color-white);
   }
-
-  .form-group .focus-within {
+  
+  .form-group:focus-within {
     background-color: var(--color-light-grey);
-    transition: 0.3s
+    transition: 0.3s;
   }
-
+  
   /* Form field
-    ============================= */
+  ============================= */
+  
   .form-field-container {
     position: relative;
   }
-
+  
   .form-field-icon {
     font-style: normal;
   }
-
+  
   /* Form help
-    ============================= */
+  ============================= */
+  
   .form-group .form-help {
     margin: 0;
     line-height: 1.3;
@@ -755,10 +758,10 @@
     color: var(--color-dark-grey);
     font-size: var(--font-size-small);
     max-height: 0;
-    transition: 00.3s;
+    transition: 0.3s;
     overflow: hidden;
   }
-
+  
   .form-group:focus-within .form-help {
     max-height: 20rem;
     margin: 0.4rem 0 0;
