@@ -251,15 +251,16 @@
                   <label for="your-first-name">First Name</label>
                   <div class="form-field">
                     <span class="form-field-container">
-                      <input type="text"
+                      <input
+                        type="text"
                         name="your-first-name"
                         id="your-first-name"
                         placeholder="e.g. Mike"
-                        parttern="[A-Za-zÀ-ž\s]{3,}"
+                        pattern="[A-Za-zÀ-ž\s]{3,}"
                         maxlength="35"
-                        autocomplete="on"
+                        autocomplete="true"
                         accesskey="f"
-                        required="true"
+                        required
                       />
                     </span>
                   </div>
@@ -268,16 +269,17 @@
                   <label for="your-last-name">Last Name</label>
                   <div class="form-field">
                     <span class="form-field-container">
-                      <input type="text"
+                      <input
+                        type="text"
                         name="your-last-name"
                         id="your-last-name"
                         placeholder="e.g. Smith"
-                        parttern="[A-Za-zÀ-ž\s]{3,}"
+                        pattern="[A-Za-zÀ-ž\s]{3,}"
                         maxlength="40"
-                        autocomplete="on"
-                        accesskey="1"
-                        required="true"
-                      /> 
+                        autocomplete="true"
+                        accesskey="l"
+                        required
+                      />
                     </span>
                   </div>
                 </div>
@@ -285,15 +287,16 @@
                   <label for="your-email">Email</label>
                   <div class="form-field">
                     <span class="form-field-container">
-                      <input type="email"
+                      <input
+                        type="email"
                         name="your-email"
                         id="your-email"
                         placeholder="e.g. youremail@gmail.com"
-                        parttern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
                         maxlength="55"
-                        autocomplete="on"
+                        autocomplete="true"
                         accesskey="e"
-                        required="true"
+                        required
                       />
                     </span>
                   </div>
@@ -305,15 +308,16 @@
                   <label for="your-title">Title</label>
                   <div class="form-field">
                     <span class="form-field-container">
-                      <input type="text"
+                      <input
+                        type="text"
                         name="your-title"
                         id="your-title"
                         placeholder="e.g. I loved that article"
-                        parttern="[A-Za-zÀ-ž\s]{4,}"
+                        pattern="[A-Za-zÀ-ž\s]{4,}"
                         maxlength="75"
-                        autocomplete="on"
+                        autocomplete="true"
                         accesskey="t"
-                        required="true"
+                        required
                       />
                     </span>
                   </div>
@@ -325,13 +329,13 @@
                       <textarea
                         name="your-comment"
                         id="your-comment"
-                        placeholder="e.g. Write your-comment here"
+                        placeholder="Write your comment here"
                         minlength="10"
                         accesskey="c"
-                        required="true"
+                        required
                         cols="30"
                         rows="6"
-                      ></textarea> 
+                      ></textarea>
                     </span>
                   </div>
                 </div>
