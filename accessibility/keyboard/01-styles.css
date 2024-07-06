@@ -1,3 +1,4 @@
+
 /* SUMMARY
 1. GLOBAL
 2. LAYOUT
@@ -667,6 +668,14 @@
     display: block;
     text-decoration: none;
     padding-top: 45%;
+    opacity: 0;
+  }
+  
+  .card-work .card-title a:focus,
+  .card-work:hover .card-title a {
+    opacity: 1;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
   }
   
   .card-work .card-title a::after {
@@ -692,16 +701,8 @@
     .card-work .card-title a {
       display: block;
       padding: 2rem 1rem 0 1rem;
-      opacity: 0;
     }
-
-    .card-work .card-title a:focus,
-    .card-work:hover .card-title a {
-        opacity: 1;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.7);
-    }
-
+  
     .card-work:hover .card-inner {
       background-color: transparent;
     }
@@ -1100,4 +1101,3 @@
     cursor: text;
     margin: 0 1rem;
   }
-  
