@@ -1,0 +1,9 @@
+/* Assign the text color #3D3D3D to the HTML tags body and p  */
+$variable: #3d3d3d;
+
+body {
+  color: $variable;
+}
+p {
+  color: $variable;
+}
