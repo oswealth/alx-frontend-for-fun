@@ -1,0 +1,16 @@
+ /* Assign font size to all tags of class .info, text color #00FF00 to all tags
+    of class .success (extending .info), and text color #FF0000 to all tags
+    of class .warning (extending .info) */
+@import "10-colors.scss";
+
+.red {
+  color: $red;
+}
+
+.green {
+  color: $green;
+}
+
+.blue {
+  color: $blue;
+}
