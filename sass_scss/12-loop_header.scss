@@ -1,0 +1,7 @@
+/* Create h1 to h5 tags with font sizes equal to 1px for h1, 2px for
+   h2, etc., using @for statement */
+@for $value from 1 through 5 {
+  h#{$value} {
+    font-size: $value + px;
+  }
+}
