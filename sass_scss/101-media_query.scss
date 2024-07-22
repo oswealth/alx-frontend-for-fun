@@ -1,0 +1,9 @@
+/* Assign text color $red to class .red, $green to class .green, and
+   $blue to class .blue using @import */
+h1 {
+  font-size: 20px;
+
+  @media screen and (max-width: 320px) {
+    font-size: 14px;
+  }
+}
