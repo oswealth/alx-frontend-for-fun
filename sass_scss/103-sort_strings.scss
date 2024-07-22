@@ -1,3 +1,7 @@
-/* Sass file */
-@import '103-sort_list.scss';
-@debug
+/* sorts $list_to_sort and prints the sorted list in debug output */
+
+@import '103-sort_list';
+
+@each $name in $list_to_sort {
+    @debug #{$name};
+}
